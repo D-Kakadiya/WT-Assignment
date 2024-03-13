@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(9, 31, 41);
+}
+
+:root {
+    color: #fff;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Utility class */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Top banner */
+
+.main-navbar {
+    position: sticky;
+    top: 0px;
+}
+
+/* Nav bar */
+
+nav {
+    background-color: #0d2e3d;
+    height: 10vh;
+    width: 100%;
+    /* border-bottom: 2px solid #ccc; */
+    align-items: center;
+}
+
+nav ul li {
+    text-align: center;
+
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #79d6f2;
+    cursor: pointer;
+    /* transform: translateY(-7px); */
+}
+
+nav ul li a {
+    color: white;
+    padding-right: 30px;
+    font-weight: 500;
+    transition: .2s ease-in;
+}
+
+.container1 {
+    justify-content: center;
+    padding-inline: 43px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.container1 .logogif {
+    background-image: url('images/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 6vw;
+    height: 10vh;
+    background-size: 100%;
+}
+
+.home {
+    padding-left: 20px;
+}
+
+.container1 .sign-in button {
+    border: none;
+    height: 30px;
+    width: 70px;
+    font-size: 17px;
+    font-weight: 530;
+    border-radius: 60px;
+    color: white;
+    background-color: #5E7284;
+}
+
+.container1 .sign-in button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #56a8c1;
+
+}
+
+.container {
+    height: 1000px;
+    width: 45%;
+    background-color: rgb(13, 46, 61);
+    margin-left: 440px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.con {
+    border: 2px solid white;
+    height: 940px;
+    width: 84%;
+    margin-left: 55px;
+}
+
+.heading {
+    color: #fff;
+    height: 70px;
+    border-bottom: 2px solid darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    text-transform: capitalize;
+    margin: 0px 25px 0px 25px;
+}
+
+input {
+    height: 27px;
+    border-radius: 5.5px;
+}
+
+.form-sec {
+    color: white;
+    text-transform: capitalize;
+    padding: 20px 25px;
+    font-size: 17px;
+}
+
+.h {
+    padding-bottom: 5px;
+}
+
+.form-sec input {
+    width: 47%;
+}
+
+.in {
+    margin-left: 40px;
+}
+
+.inp {
+    display: flex;
+}
+
+.inpt {
+    padding-left: 90px;
+}
+
+.disflex {
+    display: flex;
+}
+
+.address {
+    padding-left: 25px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.address input {
+    width: 95%;
+}
+
+.space {
+    margin-top: 7px;
+}
+
+.city {
+    margin-top: 9px;
+    display: flex;
+    width: 95%;
+}
+
+.add {
+    display: flex;
+}
+
+.inptt {
+    padding-left: 246px;
+}
+
+.zip {
+    width: 46%;
+    margin-top: 10px;
+}
+
+.option {
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    padding-left: 25px;
+}
+
+.opt {
+    text-transform: capitalize;
+    border-radius: 4px;
+    background-color: rgb(223, 214, 214);
+    font-size: 17px;
+    color: rgb(87, 83, 83);
+    font-weight: 550;
+    width: 90%;
+    height: 27px;
+}
+
+.contry {
+    margin-top: 4px;
+    text-transform: capitalize;
+    padding-left: 25px;
+}
+
+.contect {
+    margin-top: 25px;
+    padding-left: 25px;
+    text-transform: capitalize;
+}
+
+.cont {
+    display: flex;
+    width: 98%;
+}
+
+.input {
+    padding-left: 163px;
+}
+
+.input2 {
+    padding-left: 147px;
+}
+
+.butt {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    height: 33px;
+    width: 82px;
+    font-size: 18px;
+    background-color: rgb(97, 134, 229);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    background-color: rgb(127, 157, 231);
+    cursor: pointer;
+}
+
+input {
+    background-color: rgb(223, 214, 214);
+}
+
+.wid {
+    width: 40%;
+}
+
+.model {
+    width: 170%;
+    margin: 0;
+    padding: 0;
+    height: 102%;
+    border-radius: 3px;
+    background-color: rgb(223, 214, 214);
+    font-size: 17px;
+    color: rgb(87, 83, 83);
+    font-weight: 550;
+}
+
+.in2 {
+    margin-left: 130px;
+    width: 40%;
+}
+
+/* Footer-Section */
+
+footer {
+    height: 390px;
+    background-color: #0d2e3d   ;
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.logo-img {
+    background-image: url('images/logo.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 140px;
+}
+
+.opening-hours p {
+    padding-top: 3px;
+    transition: .3s all ease-in;
+}
+
+.opening-hours p:hover {
+    transform: translateX(10px);
+    cursor: pointer;
+}
+
+.opening-hours,
+.contact-us1,
+.contact-us2,
+.address {
+    padding-top: 20px;
+}
+
+.contact-us1 h4,
+.contact-us2 h4,
+.address h4,
+.opening-hours h3 {
+    font-size: 25px;
+    color: #79d6f2;
+    transition: .3s all ease-in;
+}
+
+.contact-us1 h4:hover,
+.contact-us2 h4:hover,
+.address h4:hover,
+.opening-hours h3:hover {
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+.contact-us1 p,
+.contact-us2 p {
+    font-size: 20px;
+    padding-top: 10px;
+    transition: .1s all ease-in-out;
+}
+
+.contact-us1 p:hover,
+.contact-us2 p:hover {
+    cursor: pointer;
+    transform: translateX(10px);
+}
+
+.contact-us1 .footer-p,
+.contact-us2 .footer-p {
+    font-weight: 600;
+    padding-top: 30px;
+    color: #79d6f2;
+    transition: .3s all ease-in;
+}
+
+.contact-us1 .footer-p:hover,
+.contact-us2 .footer-p:hover {
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+.contact-us1 .number,
+.contact-us2 .number {
+    font-weight: 550;
+}
+
+.address p {
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 1.5;
+    transition: .1s all ease-in-out;
+}
+
+.address p:hover {
+    transform: translateX(10px);
+    cursor: pointer;
+}
+
+/* Sub-footer */
+
+.sub-footer {
+    flex-direction: row;
+    height: 50px;
+    background-color: #0d2e3de7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-footer-p {
+    text-decoration: none;
+    display: flex;
+}
+
+.sub-footer-p p {
+    padding-right: 50px;   
+    color: white;
+    font-size: 20px;
+}
+
+.sub-footer span {
+    color: #79d6f2;
+}
+
+.sub-footer .icon {
+    padding-left: 270px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.sub-footer .icon i {
+    padding-left: 15px;
+}
